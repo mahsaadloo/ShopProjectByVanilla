@@ -1,4 +1,6 @@
-export type textfieldType = {
-    label?: HTMLElement | string;
-    icon?: string;
-} | any;
+export type textfieldType =
+  | {
+      label?: HTMLElement | string;
+      icon?: string;
+    }
+  | any;

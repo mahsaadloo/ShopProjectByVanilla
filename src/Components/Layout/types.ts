@@ -1,3 +1,3 @@
 import { BoxProps } from "../../Lib";
 
-export type layoutType = { children: BoxProps['children']}
+export type layoutType = { children: BoxProps["children"] };

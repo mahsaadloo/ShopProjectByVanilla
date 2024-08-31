@@ -1,6 +1,6 @@
-import { BoxProps } from "../../Lib"
+import { BoxProps } from "../../Lib";
 
 export type buttonType = {
-    children: BoxProps['children'],
-    attr: BoxProps['attr']
-}
+  children: BoxProps["children"];
+  attr: BoxProps["attr"];
+};
