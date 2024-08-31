@@ -1,6 +1,6 @@
 export const Routes = [
     {
-        path: '/',
+        path: '/shop',
         title: 'Shop'
     },
     {
@@ -12,15 +12,15 @@ export const Routes = [
         title: 'Our Story'
     },
     {
-        path: 'search',
+        path: '/search',
         icon: './search.svg'
     },
     {
-        path: 'basket',
+        path: '/basket',
         icon: './basket.svg'
     },
     {
-        path: 'account',
+        path: '/account',
         icon: './account.svg'
     }
 ]

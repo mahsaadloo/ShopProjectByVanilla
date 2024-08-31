@@ -11,9 +11,12 @@ export const Navbar = () => {
             },
             children: [
                 Box({
-                    element: "h1",
+                    element: "a",
                     children: "SHOPPE",
-                    attr: { class: "text-xl font-bold" }
+                    attr: {
+                            class: "text-xl font-bold",
+                            href: "/"
+                        }  
                 }),
                 Box({
                     element: "div",
